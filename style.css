@@ -25,17 +25,26 @@ body {
 }
 
 b {
-    color: #2797ec;
+    background-image: linear-gradient(18deg, #0a5690, #30a5ff);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+/* 
+https: //fossheim.io/writing/posts/css-text-gradient/
+*/
+
+header,
+section,
+footer {
+    padding: 4rem;
 }
 
 header {
     background-color: #333;
-    padding: 6rem 2rem;
-}
-
-section,
-footer {
-    padding: 4rem;
 }
 
 h1 {
@@ -71,7 +80,7 @@ section h1, footer h1 {
 }
 
 #intro a {
-    background-color: #2797ec;
+    background-image: linear-gradient(18deg, #0a5690, #30a5ff);
     padding: 1rem;
     flex: 1;
     transition: transform 0.3s;
@@ -89,6 +98,7 @@ ul {
 
 li {
     margin-bottom: 1rem;
+    padding-left: 1rem;
     color: #2797ec;
 }
 
