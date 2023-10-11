@@ -11,8 +11,7 @@
 
 :root {
     font-family: Lato, sans-serif;
-    font-size: 16px;
-    line-height: 1.4;
+    font-size: 18px;
 }
 
 @media (min-width: 600px) {
@@ -34,13 +33,18 @@ header {
     padding: 6rem 2rem;
 }
 
-header h1 {
+section,
+footer {
+    padding: 4rem;
+}
+
+h1 {
     text-align: center;
+    margin-bottom: 4rem;
+}
+
+header h1 {
     font-size: 4rem;
-    text-transform: uppercase;
-    letter-spacing: -0.05rem;
-    line-height: 1;
-    margin-bottom: 2rem;
 }
 
 header h2 {
@@ -48,14 +52,8 @@ header h2 {
     text-align: center;
 }
 
-section, footer {
-    padding: 4rem 2rem;
-}
-
 section h1, footer h1 {
-    text-align: center;
     font-size: 2.2rem;
-    margin-bottom: 4rem;
 }
 
 #intro {
@@ -86,7 +84,6 @@ section h1, footer h1 {
 }
 
 ul {
-    font-size: 1.2rem;
     margin-left: 1rem;
 }
 
@@ -107,12 +104,6 @@ footer {
     justify-content: center;
 }
 
-@media (min-width: 600px) {
-    #alex {
-        flex-direction: row;
-    }
-}
-
 #alex img {
     display: block;
     border-radius: 50%;
@@ -122,14 +113,14 @@ footer {
 }
 
 @media (min-width: 600px) {
-    #bio {
+    #alex {
         flex-direction: row;
     }
-    #bio img {
+    #alex img {
         flex: 0;
         width: 100%;
     }
-    #bio div {
+    #alex div {
         flex: 1;
     }
 }
