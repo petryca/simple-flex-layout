@@ -1,0 +1,96 @@
+* {
+    /* margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    box-sizing: border-box; */
+}
+
+:root {
+
+}
+
+@media (min-width: 600px) {
+    :root {
+
+    }
+}
+
+@media (min-width: 1000px) {
+    :root {
+
+    }
+}
+
+body {
+
+}
+
+header {
+    outline: 1px solid red;
+}
+
+section {
+    outline: 1px solid red;
+}
+
+h1 {
+
+}
+
+header h1 {
+
+}
+
+header h2 {
+
+}
+
+b {
+
+}
+
+#intro {
+
+}
+
+@media (min-width: 800px) {
+    #intro {
+
+    }
+}
+
+#intro a {
+
+}
+
+#intro a:hover {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+footer {
+    outline: 1px solid red;
+}
+
+#alex {
+
+}
+
+#alex img {
+
+}
+
+@media (min-width: 600px) {
+    #alex {
+
+    }
+}

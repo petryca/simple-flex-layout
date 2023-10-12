@@ -20,8 +20,43 @@
     }
 }
 
+@media (min-width: 1000px) {
+    :root {
+        font-size: 24px;
+    }
+}
+
 body {
     background-color: #111;
+}
+
+header {
+    background-color: #333;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    margin: 4rem;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-size: 2.2rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    line-height: 1;
+}
+
+header h2 {
+    font-weight: 400;
+    text-align: center;
 }
 
 b {
@@ -33,44 +68,14 @@ b {
     -moz-text-fill-color: transparent;
 }
 
-/* 
-https: //fossheim.io/writing/posts/css-text-gradient/
-*/
-
-header,
-section,
-footer {
-    padding: 4rem;
-}
-
-header {
-    background-color: #333;
-}
-
-h1 {
-    text-align: center;
-    margin-bottom: 4rem;
-}
-
-header h1 {
-    font-size: 4rem;
-}
-
-header h2 {
-    font-weight: 400;
-    text-align: center;
-}
-
-section h1, footer h1 {
-    font-size: 2.2rem;
-}
-
 #intro {
     display: flex;
     justify-content: center;
     text-align: center;
     gap: 1rem;
     flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
 }
 
 @media (min-width: 800px) {
@@ -93,17 +98,20 @@ section h1, footer h1 {
 }
 
 ul {
-    margin-left: 1rem;
+    max-width: 1000px;
+    margin: auto;
 }
 
 li {
     margin-bottom: 1rem;
+    margin-left: 1rem;
     padding-left: 1rem;
     color: #2797ec;
 }
 
 footer {
     background-color: #333;
+    padding: 4rem;
 }
 
 #alex {
@@ -112,6 +120,8 @@ footer {
     gap: 2rem;
     align-items: center;
     justify-content: center;
+    max-width: 1000px;
+    margin: auto;
 }
 
 #alex img {
@@ -119,18 +129,11 @@ footer {
     border-radius: 50%;
     width: 260px;
     height: auto;
-    margin: 0 auto;
+    margin: auto;
 }
 
 @media (min-width: 600px) {
     #alex {
         flex-direction: row;
-    }
-    #alex img {
-        flex: 0;
-        width: 100%;
-    }
-    #alex div {
-        flex: 1;
     }
 }
